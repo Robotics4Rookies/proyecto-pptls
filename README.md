@@ -4,6 +4,13 @@ El clásico de Big Bang Theory *Piedra papel tijeras largarto Spock* en Arduino.
 [Video del capitulo](https://www.youtube.com/watch?v=_tsy4q9ibAE)
 
 
+## Descripción:
+![interface](pictures/interfaz.jpg)
+- Arduino crea un número aleatorio entre 1 y 5, este número se corresponde a su vez con *piedra papel tijeras lagarto Spock*.
+- El jugador selecciona con un botón su opción deseada.
+- El sistema devuelve el resultado en forma de mensaje a través del serial.
+![Serial](pictures/screenshot.png)
+
 ## Lógica del juego:
 ![Reglas](pictures/reglas.jpg)
 - Piedra gana a tijeras y lagarto, pierde con papel y spock.
