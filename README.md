@@ -11,3 +11,20 @@ El clásico de Big Bang Theory *Piedra papel tijeras largarto Spock* en Arduino.
 - tijeras gana a papel y lagarto, pierde con piedra y spock. 
 - Lagarto gana a spock y papel, pierde con piedra y tijeras.
 - Spock gana a tijeras y piedra, pierde con papel y lagarto.
+
+
+## Hardware necesario:
+![Protoboard](pictures/protoboard.png)
+**IMPORTANTE:** Las resisténcias son necesarias, sino puedes dañar la placa e incluso provocar un incendio.
+
+- Placa Arduino UNO o similar [x1]
+- Pulsadores (x5) (Pines 8, 9, 10, 11 y 12)
+- Resistencias 10K (x5)
+- Un post-it a modo de interfaz (opcional)
+[Fritzing file](pptls.fzz)
+
+
+
+## El código:
+
+[Código fuente](pptls.ino)
